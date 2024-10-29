@@ -46,6 +46,7 @@ export default function StarRating({
             onHoverOut={() => setTempRating(0)}
             color={color}
             size={size}
+            key={i}
           />
         ))}
       </div>
